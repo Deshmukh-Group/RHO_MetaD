@@ -63,7 +63,7 @@ Found in the `Analysis_Scripts/` folder:
 ## 📦 Dependencies
 
 - [GROMACS](https://www.gromacs.org/) (version used: 2022 or newer recommended)
-- [PLUMED](https://www.plumed.org/) (v2.8+)
+- [PLUMED](https://www.plumed.org/) (v2.8)
 - Python 3.8+
   - `numpy`, `matplotlib`, `pandas`, `scipy`
   - Optional: `seaborn`, `MDAnalysis`
