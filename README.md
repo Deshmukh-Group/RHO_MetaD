@@ -44,6 +44,8 @@ Each system directory (e.g., `F1_V1/`, `F8_V1/`, etc.) includes:
   - `LIG.itp`: Ligand/polymer parameters
   - `PROA.itp`: Protein topology
   - `forcefield.itp`: Base force field definitions
+  - `COLVAR.tar.gz`: Tarball containing CV files for bias reweighting
+  - `HILLS.tar.gz`: Tarball containing HILLS files for metadynamics
 
 ---
 
