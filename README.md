@@ -2,9 +2,7 @@
 
 Metadynamics simulations for the study: **"Polyacrylates with protein recognition and functional modulation"**.
 
-This repository contains all relevant input files and scripts to run and analyze metadynamics simulations of polyacrylate sequences interacting with protein targets. The study investigates the influence of sequence composition and patterning on functional recognition using enhanced sampling techniques.
-
----
+This repository contains all relevant input files and scripts to run and analyze metadynamics simulations of oligomer sequences interacting with GFP. The study investigates preferred binding locations of oligomers on the GFP surface using Well-Tempered Metadynamics (WTMD).
 
 ---
 
@@ -54,7 +52,7 @@ Each system directory (e.g., `F1_V1/`, `F8_V1/`, etc.) includes:
 Found in the `Analysis_Scripts/` folder:
 
 - `analysis.py`: General post-processing pipeline
-- `fes_2d.py`, `FES2D_Surf_normalized.py`: 2D Free Energy Surface generation
+- `fes_2d.py`, `FES2D_Surf_normalized.py`: 2D Free Energy Surface (FES) generation, FES surface normalization and smoothing
 - `convergence_FES.py`: Evaluates FES convergence over time
 - `find_minima_timeframe.py`: Locates time frames corresponding to FES minima
 - `get_conformation_based_on_location.py`: Extracts representative structures from CV space
